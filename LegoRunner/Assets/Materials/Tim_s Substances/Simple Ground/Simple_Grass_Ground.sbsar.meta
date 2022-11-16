@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 7f54b5ed9c1a13f468ae8660b62d63f1
+ScriptedImporter:
+  internalIDToNameTable:
+  - first:
+      21: 2100000
+    second: Grass_Ground
+  - first:
+      28: 2800000
+    second: Grass_Ground - baseColor
+  - first:
+      28: 2800002
+    second: Grass_Ground - normal
+  - first:
+      28: 2800004
+    second: Grass_Ground - metallic
+  - first:
+      28: 2800006
+    second: Grass_Ground - height
+  - first:
+      28: 2800008
+    second: Grass_Ground - ambientOcclusion
+  - first:
+      114: 11400000
+    second: sbsar
+  - first:
+      114: 11400002
+    second: graph0
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 29
+  projectContext: 2
+  mGraphInstanceData:
+  - graphLabel: Grass_Ground
+    prototypeName: Grass_Ground
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Grass_Ground\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Universal Render Pipeline/Lit
+    materialProperties:
+      shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+      shaderKeywords: "_BASEMAP _BUMPMAP _METALLICSPECGLOSSMAP _METALL\u0130CGLOSSMAP
+        _NORMALMAP _OCCLUSIONMAP _OCCLUS\u0130ONMAP"
+      lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: 2000
+      texEnvs:
+      - name: _BaseMap
+        texture: {fileID: 2800000, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+        scale: {x: 3, y: 3}
+        offset: {x: 0, y: 0}
+      - name: _BumpMap
+        texture: {fileID: 2800002, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 3, y: 3}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 3, y: 3}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {fileID: 2800004, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {fileID: 2800008, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _SpecGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: unity_Lightmaps
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: unity_LightmapsInd
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: unity_ShadowMasks
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _AlphaClip
+        float: 0
+      - name: _Blend
+        float: 0
+      - name: _BumpScale
+        float: 1
+      - name: _ClearCoatMask
+        float: 0
+      - name: _ClearCoatSmoothness
+        float: 0
+      - name: _Cull
+        float: 2
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailAlbedoMapScale
+        float: 1
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DstBlend
+        float: 0
+      - name: _EnvironmentReflections
+        float: 1
+      - name: _GlossMapScale
+        float: 0
+      - name: _Glossiness
+        float: 0
+      - name: _GlossyReflections
+        float: 0
+      - name: _Metallic
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.005
+      - name: _QueueOffset
+        float: 0
+      - name: _ReceiveShadows
+        float: 1
+      - name: _Smoothness
+        float: 0.244
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _Surface
+        float: 0
+      - name: _WorkflowMode
+        float: 1
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _BaseColor
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+      - name: _SpecColor
+        color: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    outputDescList:
+    - outputName: baseColor
+      identifier: basecolor
+      usageName: baseColor
+      channelStr: baseColor
+      label: Base Color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: normal
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: metallic
+      identifier: Metallic
+      usageName: metallic
+      channelStr: metallic
+      label: Metallic
+      usage: 34
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: height
+      identifier: height
+      usageName: height
+      channelStr: height
+      label: Height
+      usage: 9
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: ambientOcclusion
+      identifier: ambient_occlusion
+      usageName: ambientOcclusion
+      channelStr: ambientOcclusion
+      label: Ambient Occlusion
+      usage: 5
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: roughness
+      identifier: roughness
+      usageName: roughness
+      channelStr: roughness
+      label: Routhness
+      usage: 15
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: baseColor
+      components:
+      - sourceName: baseColor
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: normal
+        from: 0
+        to: 3
+    - targetName: metallic
+      components:
+      - sourceName: smoothness
+        from: 0
+        to: 3
+    - targetName: height
+      components:
+      - sourceName: height
+        from: 0
+        to: 3
+    - targetName: ambientOcclusion
+      components:
+      - sourceName: ambientOcclusion
+        from: 0
+        to: 3
+    - targetName: roughness
+      components:
+      - sourceName: roughness
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Grass_Ground - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass_Ground - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass_Ground - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass_Ground - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass_Ground - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Grass_Ground - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+    generatedTextures:
+    - {fileID: 2800000, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+    - {fileID: 2800002, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+    - {fileID: 2800004, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
+    - {fileID: 2800008, guid: 7f54b5ed9c1a13f468ae8660b62d63f1, type: 3}
